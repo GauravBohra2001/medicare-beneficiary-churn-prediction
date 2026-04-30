@@ -53,6 +53,13 @@ priority_score = churn_probability × population
 
 This ensures resources are allocated where both risk and impact are highest.
 
+## Risk Segmentation
+
+![Risk Segmentation](images/risk_segmentation.png)
+
+A small fraction of county-months fall into high risk, but they impact millions of beneficiaries.
+
+This enables prioritizing interventions where both risk and population are highest.
 ---
 ## Dataset
 
