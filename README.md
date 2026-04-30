@@ -20,32 +20,32 @@ This is a binary classification problem:
 ---
 ## Key Insight
 
-![EDA Insight](images/eda_insight.png)
+![EDA Insight](images/images/eda_insight.png)
 
 Most counties show growth overall, but a subset consistently declines.  
 Decline is not random. It is driven by composition and recent momentum rather than population size.
 
 ## Structural Shift in Churn
 
-![Churn Trend](images/churn_trend.png)
+![Churn Trend](images/images/churn_trend.png)
 
 Churn rates increase significantly after 2019, indicating a structural change in beneficiary behavior rather than random fluctuation.
 
 ## Model Performance
 
-![ROC Curve](images/roc_curve.png)
+![ROC Curve](images/images/roc_curve.png)
 
 XGBoost achieved a ROC-AUC of 0.759, showing strong ranking ability across counties.
 
 ## What Drives Churn
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](images/images/feature_importance.png)
 
 Recent enrollment changes and time-based signals dominate prediction, confirming that momentum matters more than static demographics.
 
 ## From Prediction to Action
 
-![Resource Allocation](images/resource_allocation.png)
+![Resource Allocation](images/images/resource_allocation.png)
 
 Predictions were converted into a prioritization strategy:
 
@@ -55,7 +55,7 @@ This ensures resources are allocated where both risk and impact are highest.
 
 ## Risk Segmentation
 
-![Risk Segmentation](images/risk_segmentation.png)
+![Risk Segmentation](images/images/risk_segmentation.png)
 
 A small fraction of county-months fall into high risk, but they impact millions of beneficiaries.
 
