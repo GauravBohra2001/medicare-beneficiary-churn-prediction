@@ -212,18 +212,16 @@ Optimized healthcare resource deployment.
 
 ---
 
-## Dashboard
+## Data Model (Databricks Semantic Layer)
 
-Built interactive dashboards in Databricks:
+Designed a semantic layer on top of the processed data to support consistent analytics and dashboarding.
 
-### Page 1
-- State-level beneficiary distribution
-- Aged vs disabled comparison
+- Built SQL-based datasets in Databricks to standardize key metrics like churn probability, risk tiers, and beneficiary counts  
+- Ensured all dashboard visualizations were powered by a single source of truth  
+- Enabled reusable queries for downstream analysis and reporting  
+- Reduced ambiguity in metric definitions across different views and stakeholders  
 
-### Page 2
-- Churn risk segmentation
-- High-risk counties
-- Beneficiaries at risk
+This layer ensured reliable, scalable, and interpretable insights across the entire pipeline.
 
 ---
 
